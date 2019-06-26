@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Gallery </title>
+
+    <style>
+        body {
+            background-image: url("https://wallpaperbro.com/img/625349.jpg");
+            overflow: auto:
+        }
+        .photos {
+            margin: 30px 100px 20px 330px;
+        }
+        .search-bar {
+            margin: auto;
+            text-align: right;
+        }
+        .flowers {
+            overflow: hidden;
+            background-color: #333;
+            padding: 20px 70px 20px 10px;
+            border-radius: 5px;
+        }
+        .flowers a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 4px 10px;
+            text-decoration: none;
+        }
+        .flowers a:hover {
+            background-color: white;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search-bar" action="https://simple.wikipedia.org/wiki/Flower" method="get">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"></button>
+        </form>
+    </header>
+
+    <nav class="flowers">
+        <a href="https://en.wikipedia.org/wiki/Alstroemeria" target="_blank">Alstroemeria</a>
+        <a href="https://en.wikipedia.org/wiki/Amaryllis" target="_blank">Amaryllis</a>
+        <a href="https://en.wikipedia.org/wiki/Dahlia" target="_blank">Dahlia</a>
+        <a href="https://en.wikipedia.org/wiki/Rose" target="_blank">Rose</a>
+        <a href="https://en.wikipedia.org/wiki/Narcissus_(plant)" target="_blank">Daffodil</a>
+        <a href="https://en.wikipedia.org/wiki/Celosia" target="_blank">Celosia</a>
+    </nav>
+
+    <figure class="photos">
+        <img src="https://www.thompson-morgan.com/product_images/100/optimised/ALST-T57200-A_h.jpg" alt="Alstroemeria" width="250" height="250">
+        <img src="https://www.fluwel.com/media/catalog/product/cache/3/small_image/x430/040ec09b1e35df139433887a97daa66f/a/m/am_9052e_bram_1200.jpg" alt="Amaryllis" width="250" height="250">
+        <img src="https://s3.amazonaws.com/cdn.brecks.com/images/500/73703.jpg" alt="Dahlias" width="250" height="250">
+    </figure>
+    <figure class="photos">
+        <img src="http://cardwellgardencentre.co.uk/wordpress/wp-content/uploads/2017/03/hybrid-tea-rose.jpg" alt="Rose" width="250" height="250">
+        <img src="https://s3.amazonaws.com/cdn0.dutchbulbs.com/images/500/87784A_1.jpg" alt="Daffodil" width="250" height="250">
+        <img src="http://sugarcreekgardens.com/wp-content/uploads/2018/08/Celosia-Twisted-Cockscomb.jpg" alt="Cockscomb" width="250" height="250">
+    </figure>
+</body>
+</html>
